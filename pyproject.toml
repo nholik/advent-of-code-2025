@@ -1,0 +1,21 @@
+[project]
+name = "advent-of-code-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nick Holik", email = "nholik@gmail.com" }
+]
+requires-python = ">=3.12.1"
+dependencies = [
+    "pytest>=9.0.1",
+    "python-dotenv>=1.2.1",
+    "rich>=14.2.0",
+]
+
+[project.scripts]
+advent-of-code-2025 = "advent_of_code_2025:main"
+
+[build-system]
+requires = ["uv_build>=0.9.13,<0.10.0"]
+build-backend = "uv_build"
